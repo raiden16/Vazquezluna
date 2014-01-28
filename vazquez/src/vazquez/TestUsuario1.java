@@ -11,12 +11,18 @@ package vazquez;
  * @author T107
  */
 public class TestUsuario1 {
-
+    
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] arg) {
         // TODO code application logic here
+        Usuario u=new Usuario();
+        u.setEdad(17);
+        u.nombre="Pedro Manuel";
+        System.out.println(u.getEdad());
+        System.out.println(u.nombre);
+        
     }
     
 }
