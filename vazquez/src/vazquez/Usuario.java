@@ -11,8 +11,21 @@ package vazquez;
  * @author T107
  */
 public class Usuario {
+    //Paso1
     String nombre;
-    int edad;
+    private int edad;
+    //Paso2
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        if(edad<18)edad=-edad;
+        this.edad = edad;
+    }
+    
+    
     
     
     
