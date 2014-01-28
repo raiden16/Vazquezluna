@@ -11,5 +11,6 @@ package vazquez;
  * @author T107
  */
 public class Usuario {
-    
+    String nombre;
+    int edad;
 }
