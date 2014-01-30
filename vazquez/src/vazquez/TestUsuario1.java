@@ -20,8 +20,10 @@ public class TestUsuario1 {
         Usuario u=new Usuario();
         u.setEdad(17);
         u.nombre="Pedro Manuel";
+        u.error="No puedes acceder";
         System.out.println(u.getEdad());
         System.out.println(u.nombre);
+        System.out.println(u.error);
         
     }
     
