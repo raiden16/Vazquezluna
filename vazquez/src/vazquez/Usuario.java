@@ -13,6 +13,7 @@ package vazquez;
 public class Usuario {
     //Paso1
     String nombre;
+    String error;
     private int edad;
     //Paso2
 
@@ -21,7 +22,10 @@ public class Usuario {
     }
 
     public void setEdad(int edad) {
-        if(edad<18)edad=-edad;
+        if(edad<0)edad=-edad;
+        if(edad<18)edad=error;
+        
+        
         this.edad = edad;
     }
     
