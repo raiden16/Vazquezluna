@@ -1,0 +1,6 @@
+public class CuentaDebito extends Cuenta {
+    public void CrearCuenta(){
+    System.out.println("Cuenta de Debito creada con exito");
+    }
+    
+}
