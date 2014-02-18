@@ -1,0 +1,7 @@
+public class CuentaAhorro extends Cuenta{
+    @Override
+    public void CrearCuenta(){
+    System.out.println("Cuenta de Ahorro creada con exito");}
+    
+    
+}
