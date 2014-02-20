@@ -2,5 +2,7 @@ public class CuentaDebito extends Cuenta {
     public void CrearCuenta(){
     System.out.println("Cuenta de Debito creada con exito");
     }
+    public void CrearCuenta1(){
+    System.out.println("No se creo la cuenta por Falta de Datos");}
     
 }
