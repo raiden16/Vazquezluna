@@ -13,13 +13,5 @@ public class ProbarCuentas {
                  System.out.println(c[i].CrearCuenta)
                  }
                 
-                 
-                
-                
-        
-        
-        
-        
-        }
     
 }
