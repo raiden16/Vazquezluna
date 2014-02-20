@@ -8,10 +8,11 @@ public class ProbarCuentas {
         CuentaDebito c0=new CuentaDebito();
             CuentaAhorro c1=new CuentaAhorro();
                 CuetaNomina c2=new CuentaNomina();
+                    CuentaDebito c3=new CuentaDebito();
                  int x[]=new int[3];
                  for(int i:x){
-                 System.out.println(c[i].CrearCuenta)
+                 c[i].CrearCuenta;
                  }
-                
+            
     
 }
