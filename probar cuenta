@@ -11,7 +11,12 @@ public class ProbarCuentas {
                     CuentaDebito c3=new CuentaDebito();
                  int x[]=new int[3];
                  for(int i:x){
-                 c[i].CrearCuenta;
+                 if (c[i].Nombre!=""){
+                    c[i].CrearCuenta;
+                    }
+                    else{
+                    c[i].CrearCuenta1
+                    }
                  }
             
     
