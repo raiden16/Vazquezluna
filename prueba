@@ -1,0 +1,17 @@
+public class Usuario2 {
+
+    /*public class Usuario2 {
+*
+     * @param args the command line arguments
+     * @throws java.lang.Exception
+     */
+    public static void main(String[] args) throws Exception {
+        Usuario u2=new Usuario();
+        u2.setNombre("alberto");
+        u2.setEdad(15);
+       
+        
+        
+    }
+    
+}
