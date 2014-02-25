@@ -1,0 +1,29 @@
+public class Usuario {
+    public String nombre;
+    public int edad;
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad)throws EdadNegativaException {
+        Validaciones.validarEdad(edad);
+       this.edad = edad;
+    }
+    
+    
+   public void mensaje(){
+   System.out.println("Lo sentimos eres menor de edad");
+   }
+   public void mensaje1(){
+   System.out.println("Bienvenido a nuestra pagina");
+   }
+}
